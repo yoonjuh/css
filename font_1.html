@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            #type1{
+                font-size:5rem;
+                font-family: arial, verdana,"Helvetica Neue",serif ;
+                /* font-family로 설정할때 여러 폰트 들을 적어주고 반드시 뒤에 serif
+                혹은 sans serif라고 적어주어야 한다 이때 그냥 serif는 개발자가 장식한 폰트중에
+                사용자의 컴퓨터에 내장되어 있는 장식이 있는 폰트를 적용시킨다
+                sans는 장식이 없는것을 적용시킨다 또 monospace라는 것이 있는데 
+                가변적인 serif,sans serif와는 다르게 고정적이다 (잘 사용되지 않는다)*/
+                font-weight: bold;
+                line-height: 1.2;
+                
+             }
+             #type2{
+              font:bold 5rem/2 arial, verdana," Helvetica Neue", serif;
+                /*이것은 type1의 축약형인데 이렇게 쓰려면 아래의 순서데로 코딩해야된다
+                font: font-style font-variant font-weight font-size/line-height
+                 font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;  */
+             }
+        </style>
+    </head>
+    <body>
+        <p id="type1">
+            Hello world 
+        </p>
+        <p id="type2">
+             Hello world 
+            </p>
+    </body>
+</html>
